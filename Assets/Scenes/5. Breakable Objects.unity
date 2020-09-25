@@ -215,6 +215,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &90755331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: a37e576d5ecb34018b6324167cb49009,
+    type: 3}
+  m_PrefabInstance: {fileID: 761017457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &442644139
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,15 +403,35 @@ MonoBehaviour:
         linkConstraint: 0
         colorIndex: 0
       actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetVisibility
+        - HutongGames.PlayMaker.Actions.SetVisibility
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: f8c56601f8c56601
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1261723661}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 90755331}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -419,29 +445,61 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams: []
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
+        paramDataType: 1400000011000000110000000100000014000000110000001100000001000000
+        paramName:
+        - gameObject
+        - toggle
+        - visible
+        - resetOnExit
+        - gameObject
+        - toggle
+        - visible
+        - resetOnExit
+        paramDataPos: 0000000000000000010000000000000001000000020000000300000001000000
+        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000
     - name: Broken
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 316
-        y: 415
+        x: 354.3125
+        y: 291.58594
         width: 100
         height: 16
       isBreakpoint: 0
@@ -492,8 +550,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 62
-        y: 121
+        x: 60.9375
+        y: 124.19531
         width: 100
         height: 32
       isBreakpoint: 0
