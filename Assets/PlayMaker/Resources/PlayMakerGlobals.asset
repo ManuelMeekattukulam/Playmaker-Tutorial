@@ -107,3 +107,4 @@ MonoBehaviour:
   - clicked_on
   - Pop Up
   - set_number
+  - EVENT_JSON

@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1948740394
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: gold_coin_1
+      Dependencies: {}
