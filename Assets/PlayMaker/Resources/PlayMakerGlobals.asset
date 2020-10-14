@@ -110,7 +110,6 @@ MonoBehaviour:
     - 
     variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
-  - add_health
   - remove_health
   - open_lid
   - Platform_add
@@ -126,3 +125,4 @@ MonoBehaviour:
   - Pop Up
   - set_number
   - EVENT_JSON
+  - add_health
