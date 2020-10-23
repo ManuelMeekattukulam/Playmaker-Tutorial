@@ -122,7 +122,7 @@ MonoBehaviour:
   - terminal_unlocked
   - advance_quest
   - clicked_on
-  - Pop Up
   - set_number
   - EVENT_JSON
   - add_health
+  - PopUp
