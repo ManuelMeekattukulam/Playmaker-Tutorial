@@ -80,6 +80,30 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {r: 1, g: 0.64137936, b: 0, a: 1}
+    - useVariable: 1
+      name: Color1
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    - useVariable: 1
+      name: Color2
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    - useVariable: 1
+      name: Color3
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    - useVariable: 1
+      name: Color4
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables:
@@ -108,7 +132,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - remove_health
   - open_lid
