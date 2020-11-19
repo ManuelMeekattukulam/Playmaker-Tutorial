@@ -156,4 +156,5 @@ MonoBehaviour:
   - EVENT_JSON
   - add_health
   - PopUp
-  - CheckForWin
+  - Platform_Add
+  - Platform_Subtract
